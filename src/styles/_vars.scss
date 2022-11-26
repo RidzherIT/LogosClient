@@ -1,0 +1,26 @@
+$bg: #44403F;
+
+%gilroy-400 {
+    font-family: 'gilroy-regular', sans-serif;
+    font-weight: 400;
+}
+
+%gilroy-500 {
+    font-family: 'gilroy-medium', sans-serif;
+    font-weight: 500;
+}
+
+%gilroy-600 {
+    font-family: 'gilroy-semibold', sans-serif;
+    font-weight: 600;
+}
+
+%gilroy-700 {
+    font-family: 'gilroy-bold', sans-serif;
+    font-weight: 700;
+}
+
+%linear-gradient {
+    background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
+    border-radius: 10px;
+}

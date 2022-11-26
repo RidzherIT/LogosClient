@@ -1,0 +1,119 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    @extend %gilroy-400;
+    background-color: $bg;
+    cursor: default;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.footer {
+    flex: 0 0 auto;
+}
+
+.main {
+    flex: 1 0 auto;
+}
+
+.container {
+    max-width: 1470px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.container-basket {
+    max-width: 1126px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.title {
+    @extend %gilroy-700;
+    font-size: 32px;
+    line-height: 39px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    position: relative;
+    padding-left: 23px;
+    margin: 50px 0 50px 80px;
+}
+
+.title::before {
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 33px;
+    background-color: #618967;
+    left: 0;
+    top: 3px;
+}
+
+.about__title,
+.contacts__title,
+.stock__title {
+    @extend %gilroy-700;
+    font-size: 32px;
+    line-height: 39px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 26px;
+}
+
+.wrapper-gradient {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.15) 48.33%, rgba(255, 255, 255, 0) 100.87%);
+    padding: 2px 0;
+}
+
+.place-order__info-title,
+.place-order__delivery-title,
+.place-order__pay-title,
+.place-order__whendeliver-title {
+    font-size: 18px;
+    line-height: 22px;
+    @extend %gilroy-700;
+    color: #fff;
+    padding-bottom: 30px;
+}
+
+.place-order__info,
+.place-order__delivery,
+.place-order__pay,
+.place-order__whendeliver,
+.place-order__agree,
+.place-order__stop {
+    padding: 30px 0 0 30px;
+    @extend %linear-gradient;
+    max-width: 800px;
+    margin: 0 auto 20px;
+}
+
+.place-order__info-input,
+.place-order__adress-input {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    background-color: transparent;
+    height: 60px;
+    color: #fff;
+    padding: 0 7px;
+}
+
+.place-order__info-input::placeholder,
+.place-order__adress-input::placeholder {
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff;
+}
+
+.place-order__delivery-input,
+.place-order__pay-input,
+.place-order__whendeliver-input,
+.place-order__agree-input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}

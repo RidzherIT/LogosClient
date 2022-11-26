@@ -1,0 +1,534 @@
+@media (max-width: 1440px) {
+    .header__contacts--margin {
+        margin-right: 10px;
+    }
+
+    .header__user {
+        display: none;
+    }
+
+    .delivery__item-title {
+        padding: 16px 60px 17px 30px;
+    }
+
+    .product-card__inner {
+        display: block;
+
+        img {
+            margin: 0 auto 20px;
+            border-radius: 10px;
+        }
+    }
+
+    .product-card__item {
+        border-radius: 0 10px 10px 0;
+        padding: 10px;
+        text-align: center;
+        max-width: 600px;
+        margin: 0 auto 20px;
+    }
+
+    .product-card__text {
+        margin: 0 auto;
+    }
+
+    .product-card__box {
+        max-width: 231px;
+        margin: 0 auto 20px;
+    }
+
+    ul.product-card__list {
+        margin: 0 auto;
+    }
+
+    .product-card__item {
+        border-radius: 10px;
+    }
+
+    .product-card__inner {
+        padding: 0;
+    }
+
+    .product-card__img {
+        width: 600px;
+    }
+}
+
+@media (max-width: 1260px) {
+    .header__inner {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px 0;
+    }
+
+    .header__input {
+        width: 320px;
+    }
+
+    .products__items {
+        width: 1300px;
+    }
+
+    .products__items-wrapper {
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+
+    .slick-slide {
+        width: 340px !important;
+    }
+
+    .about__inner {
+        display: block;
+        margin: 0;
+    }
+
+    .about__our-box {
+        max-width: 100%;
+        padding: 50px 10px 10px 30px;
+    }
+
+    .about__link {
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+
+    .about__advantages-box {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 20px auto;
+    }
+
+    .footer ul.footer__item-links {
+        display: none;
+    }
+
+    .basket__item-box {
+        margin-right: 35px;
+    }
+
+    .basket__item-price {
+        margin: 0 25px 0 55px;
+    }
+
+    .basket__inner {
+        width: max-content;
+    }
+
+    .basket__add-inner {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .basket__add-item {
+        text-align: center;
+        border-right: none;
+
+        img {
+            margin: 0 auto;
+        }
+    }
+
+    .place-order__link.contacts__phone-booking {
+        display: block;
+    }
+
+    .delivery__content {
+        display: block;
+        margin-bottom: 370px;
+    }
+
+    .delivery__map {
+        height: 600px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 1015px) {
+    .header__adress {
+        order: 1;
+    }
+
+    .stock__inner {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 20px 20px;
+        max-width: 1360px;
+        margin: 0 auto 70px;
+    }
+}
+
+@media (max-width: 840px) {
+    .basket__item {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+
+        img {
+            margin: 0 0 10px 0;
+        }
+    }
+
+    .basket__inner {
+        padding: 20px 20px 20px 20px;
+        max-width: 1096px;
+    }
+
+    .basket__item-box {
+        margin-right: 0;
+    }
+
+    .basket__item-text {
+        margin-bottom: 30px;
+    }
+
+    .basket__item-price {
+        margin: 25px 0px 5px 0px;
+    }
+
+    .header__adress {
+        margin-right: 0;
+    }
+
+    .place-order__info-input {
+        margin: 0 0 10px 0;
+    }
+
+    .basket__title {
+        font-size: 20px;
+        line-height: 24px;
+        margin: 30px 0 30px 0px;
+    }
+
+    .basket__link {
+        margin: 34px 0 0 0;
+    }
+
+    .place-order__info,
+    .place-order__delivery,
+    .place-order__pay,
+    .place-order__whendeliver,
+    .place-order__agree,
+    .place-order__stop {
+        padding: 15px 15px 0 15px;
+    }
+
+    .place-order__pay-span,
+    .place-order__delivery-span,
+    .place-order__whendeliver-spann {
+        padding: 20px 20px;
+    }
+
+    .jq-selectbox__select {
+        width: max-content;
+    }
+
+    .place-order__agree {
+        display: block;
+        padding-bottom: 20px;
+    }
+
+    .place-order__agree-link {
+        margin: 20px auto;
+    }
+
+    .product-card__list {
+        max-width: 100%;
+    }
+
+}
+
+@media (max-width: 670px) {
+    .header__contacts-box {
+        display: none;
+    }
+
+    .header__logo {
+        margin: 0px -70px 0 0;
+    }
+
+    .menu__btn {
+        display: block;
+        border: none;
+        background-color: transparent;
+        border-bottom: 3px solid #65906C;
+        width: 25px;
+        height: 19px;
+        padding: 0;
+        position: relative;
+        cursor: pointer;
+        top: -6px;
+        margin-right: 20px;
+
+        span {
+            position: absolute;
+            top: 25px;
+            left: -5px;
+            font-size: 12px;
+            line-height: 15px;
+            color: #fff;
+            font-family: 'gilroy-bold';
+            font-weight: 700;
+        }
+    }
+
+    .menu__btn::before {
+        content: "";
+        position: absolute;
+        width: 25px;
+        height: 3px;
+        background-color: #65906C;
+        left: 0;
+        top: 0;
+    }
+
+    .menu__btn::after {
+        content: "";
+        position: absolute;
+        width: 25px;
+        height: 3px;
+        background-color: #65906C;
+        top: 8px;
+        left: 0px;
+    }
+
+    .header__cart {
+        display: flex;
+        flex-direction: column;
+        padding: 7px 7px 7px 7px;
+        margin: 0 25px;
+
+        img {
+            display: block;
+            margin-bottom: 10px;
+        }
+    }
+
+    .header__cart-num {
+        display: none;
+    }
+
+    .header__line {
+        margin-left: 0;
+        transform: rotate(90deg);
+        position: absolute;
+        top: 20px;
+    }
+
+    ul.header__menu {
+        display: block;
+        position: absolute;
+        width: 100%;
+        padding: 10px;
+        top: 140px;
+        text-align: center;
+        background-color: #3a3535;
+        transform: translateY(-200%);
+        transition: all .5s;
+        z-index: 20;
+    }
+
+    ul.header__menu--active {
+        transform: translateY(0%);
+    }
+
+    .header__menu-link {
+        font-size: 22px;
+        line-height: 27px;
+        color: #fff;
+        width: 100%;
+        display: block;
+    }
+
+    .header__menu-item {
+        margin-bottom: 20px;
+    }
+
+    .banner-food {
+        display: none;
+    }
+
+    .products__title {
+        font-size: 20px;
+        line-height: 24px;
+        margin: 30px;
+    }
+
+    .about__inner {
+        display: none;
+    }
+
+    .contacts__inner {
+        padding: 0;
+        border-radius: 10px;
+    }
+
+    .contacts__box {
+        max-width: 100%;
+    }
+
+    .contacts__phone-booking.contacts__moica {
+        display: block;
+    }
+
+    .contacts__phone-booking.contacts__marshrut {
+        display: block;
+    }
+
+    .contacts__phone-booking {
+        display: none;
+        margin: 20px auto;
+    }
+
+    .contacts__phone-box {
+        display: block;
+
+        div {
+            width: 210px;
+            margin: 0 auto;
+        }
+    }
+
+    .basket__add-inner {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .basket__add-item {
+        margin-bottom: 10px;
+    }
+
+    .place-order {
+        display: block;
+        padding: 15px 10px 15px 10px;
+        margin: 25px 0 30px;
+    }
+
+    .place-order__item {
+        text-align: center;
+    }
+
+    .basket__span {
+        display: block;
+    }
+
+    .basket__box {
+        margin-left: 0;
+    }
+
+    .place-order__adress-select .jq-selectbox__select {
+        width: max-content;
+    }
+
+    .place-order__delivery-text {
+        display: none;
+    }
+
+    .place-order__adress-input__comment {
+        width: max-content;
+    }
+
+    .place-order__adress-input {
+        width: 255px;
+    }
+
+    .place-order__pay-label {
+        border-radius: 10px;
+    }
+
+    .place-order__whendeliver-label {
+        border-radius: 10px;
+    }
+
+    .place-order__whendeliver-label__person {
+        width: 244px;
+        padding-left: 0;
+    }
+
+    .place-order__agree-link.contacts__phone-booking {
+        display: block;
+    }
+
+    .delivery__map {
+        height: 300px;
+        width: 100%;
+    }
+
+    .delivery__content {
+        margin-bottom: 150px;
+    }
+
+    .delivery__timejob-box {
+        display: block;
+    }
+
+    .stock__inner {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+    }
+
+    .stock__item {
+        margin: 0 auto;
+    }
+
+    .stock__title {
+        font-size: 20px;
+        line-height: 24px;
+        margin: 30px 0 30px 0px;
+    }
+
+    .contacts__box {
+        padding: 10px 10px 10px 10px;
+    }
+}
+
+@media (max-width: 420px) {
+    .header__input {
+        width: 240px;
+    }
+
+    .about__text {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+
+    .footer__inner {
+        padding: 15px 0 15px 75px;
+    }
+
+    .footer__up-top {
+        left: 5px;
+    }
+
+    .container-basket {
+        padding: 0;
+    }
+
+    .basket__inner {
+        padding: 20px 10px 20px 10px;
+        max-width: 1096px;
+    }
+
+    .delivery__content {
+        margin-bottom: 250px;
+    }
+
+    .delivery__timejob-text {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .delivery__timejob {
+        max-width: 790px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .products-slider__item {
+        max-width: 310px;
+    }
+
+    .header__input::placeholder {
+        font-size: 14px;
+    }
+}
