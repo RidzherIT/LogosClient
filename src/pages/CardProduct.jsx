@@ -18,7 +18,7 @@ export default observer(function CardProduct() {
         const data = {
             id: +id
         }
-        const res = await fetch('https://server-logos.onrender.com/product/getOne', {
+        const res = await fetch('https://zany-ruby-shrimp-belt.cyclic.app/product/getOne', {
             method: 'POST',
             body: JSON.stringify(data),
             headers: {
@@ -42,7 +42,7 @@ export default observer(function CardProduct() {
             sale: +product.sale,
             sum: +product.sale,
             value: 1,
-            img: `https://server-logos.onrender.com/${product.img}`
+            img: `https://zany-ruby-shrimp-belt.cyclic.app/${product.img}`
         }
         store.setProductsAdd(obj);
         store.setValueProducts();
@@ -57,7 +57,7 @@ export default observer(function CardProduct() {
                 </Link>
                 <div class="product-card__inner">
 
-                    <img class="product-card__img" src={`https://server-logos.onrender.com/${product.img}`} alt="product-card img" />
+                    <img class="product-card__img" src={`https://zany-ruby-shrimp-belt.cyclic.app/${product.img}`} alt="product-card img" />
                     <div class="product-card__item">
                         {store.products.find(elem => elem.id == product.id) && <span className="product__count">{store.products.find(elem => elem.id == product.id).value}</span>}
                         {store.auth && <button onClick={() => changeModal(true)} className="admin__btn">Изменить товар/Удалить</button>}

@@ -16,7 +16,7 @@ export default observer(function Auth() {
             login: loginReg,
             password: passReg
         }
-        const res = await fetch('https://server-logos.onrender.com/api/registration', {
+        const res = await fetch('https://zany-ruby-shrimp-belt.cyclic.app/api/registration', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json;charset=utf-8'
@@ -36,7 +36,7 @@ export default observer(function Auth() {
             login: loginLog,
             password: passLog
         }
-        const res = await fetch('https://server-logos.onrender.com/api/login', {
+        const res = await fetch('https://zany-ruby-shrimp-belt.cyclic.app/api/login', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json;charset=utf-8'
@@ -53,7 +53,7 @@ export default observer(function Auth() {
     }
 
     const logout = async () => {
-        const res = await fetch('https://server-logos.onrender.com/api/logout');
+        const res = await fetch('https://zany-ruby-shrimp-belt.cyclic.app/api/logout');
         const json = await res.json();
         if (json && !json.auth) {
             store.setAuth(false);

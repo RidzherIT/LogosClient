@@ -69,9 +69,9 @@ export default function ListProduct({ title, idList }) {
         }
         let res;
         if (idList === 0) {
-            res = await fetch('https://server-logos.onrender.com/product/getRandom');
+            res = await fetch('https://zany-ruby-shrimp-belt.cyclic.app/product/getRandom');
         } else {
-            res = await fetch('https://server-logos.onrender.com/product/get', {
+            res = await fetch('https://zany-ruby-shrimp-belt.cyclic.app/product/get', {
                 method: 'POST',
                 body: JSON.stringify(data),
                 headers: {

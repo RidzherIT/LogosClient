@@ -10,7 +10,7 @@ export default function Orders() {
         getOrders()
     }, [checked])
     const getOrders = async () => {
-        const res = await fetch('https://server-logos.onrender.com/orders/get');
+        const res = await fetch('https://zany-ruby-shrimp-belt.cyclic.app/orders/get');
         const json = await res.json();
         setOrders(json)
     }
@@ -18,7 +18,7 @@ export default function Orders() {
         const data = {
             id: idOrder
         }
-        const res = await fetch('https://server-logos.onrender.com/orders/put', {
+        const res = await fetch('https://zany-ruby-shrimp-belt.cyclic.app/orders/put', {
             method: 'PUT',
             body: JSON.stringify(data),
             headers: {
@@ -32,7 +32,7 @@ export default function Orders() {
         }
     }
     const deleteOrders = async () => {
-        const res = await fetch('https://server-logos.onrender.com/orders/delete', {
+        const res = await fetch('https://zany-ruby-shrimp-belt.cyclic.app/orders/delete', {
             method: 'DELETE'
         })
         const json = await res.json();
