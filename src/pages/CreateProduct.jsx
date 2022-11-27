@@ -30,7 +30,7 @@ export default function CreateProduct() {
             alert('Данные товара заполнены не полностью! Заполните пустые поля!');
             return;
         }
-        const res = await fetch('https://zany-ruby-shrimp-belt.cyclic.app/product/create', {
+        const res = await fetch('https://server-logos.onrender.com/product/create', {
             method: 'POST',
             body: data,
         });
