@@ -29,7 +29,7 @@ export default function UpdateProduct({ id, func }) {
             data.append('image', file);
         }
         data.append('id', `${id}`)
-        const res = await fetch('https://zany-ruby-shrimp-belt.cyclic.app/product/put', {
+        const res = await fetch('https://server-logos.onrender.com/product/put', {
             method: 'PUT',
             body: data,
         });
@@ -53,7 +53,7 @@ export default function UpdateProduct({ id, func }) {
         const data = {
             id: +id
         }
-        const res = await fetch('https://zany-ruby-shrimp-belt.cyclic.app/product/delete', {
+        const res = await fetch('https://server-logos.onrender.com/product/delete', {
             method: 'DELETE',
             body: JSON.stringify(data),
             headers: {

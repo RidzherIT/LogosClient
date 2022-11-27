@@ -10,7 +10,7 @@ export default observer(function Basket() {
     const navigate = useNavigate();
     const [randomProduct, setRandomProduct] = useState([])
     const getRandom = async () => {
-        const res = await fetch('https://zany-ruby-shrimp-belt.cyclic.app/product/getRandom');
+        const res = await fetch('https://server-logos.onrender.com/product/getRandom');
         const json = await res.json();
         setRandomProduct(prev => [...prev, ...json])
     }

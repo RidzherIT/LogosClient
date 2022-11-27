@@ -12,7 +12,7 @@ export default observer(function SubBasketProduct({ id, title, sale, img, desc }
             sale: +sale,
             sum: +sale,
             value: 1,
-            img: `https://zany-ruby-shrimp-belt.cyclic.app/${img}`
+            img: `https://server-logos.onrender.com/${img}`
         }
         store.setProductsAdd(obj);
         store.setValueProducts();
@@ -21,7 +21,7 @@ export default observer(function SubBasketProduct({ id, title, sale, img, desc }
     return (
         <>
             <div class="basket__add-item">
-                <img src={`https://zany-ruby-shrimp-belt.cyclic.app/${img}`} alt="basket product img" />
+                <img src={`https://server-logos.onrender.com/${img}`} alt="basket product img" />
                 <h5 class="basket__add-item__title">{title}</h5>
                 {!store.products.find(elem => elem.id == id) && <button onClick={add} class="basket__add-item__btn">Добавить</button>}
                 {store.products.find(elem => elem.id == id) && <p className="basket__add-item__price">Добавлено</p>}

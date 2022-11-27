@@ -19,7 +19,7 @@ export default observer(function Customer() {
             alert(`Вы не указали имя/телефон либо не подтвердили обработку персональных данных!`)
             return;
         }
-        const resCustomer = await fetch('https://zany-ruby-shrimp-belt.cyclic.app/customer/create', {
+        const resCustomer = await fetch('https://server-logos.onrender.com/customer/create', {
             method: 'POST',
             body: JSON.stringify(dataCustomer),
             headers: {
@@ -34,7 +34,7 @@ export default observer(function Customer() {
             checked: false,
             customer_id: +jsonCustomer.id
         }
-        const resOrder = await fetch('https://zany-ruby-shrimp-belt.cyclic.app/orders/create', {
+        const resOrder = await fetch('https://server-logos.onrender.com/orders/create', {
             method: 'POST',
             body: JSON.stringify(order),
             headers: {

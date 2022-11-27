@@ -13,7 +13,7 @@ export default observer(function Product({ idProduct, title, weight, sale, img, 
             sale: +sale,
             sum: +sale,
             value: 1,
-            img: `https://zany-ruby-shrimp-belt.cyclic.app/${img}`
+            img: `https://server-logos.onrender.com/${img}`
         }
         store.setProductsAdd(obj);
         store.setValueProducts();
@@ -23,7 +23,7 @@ export default observer(function Product({ idProduct, title, weight, sale, img, 
         <>
             <div class="products-slider__item">
                 <Link to={`/cardProduct/${idProduct}`}>
-                    <img class="products-slider__img" src={`https://zany-ruby-shrimp-belt.cyclic.app/${img}`} alt="product img" />
+                    <img class="products-slider__img" src={`https://server-logos.onrender.com/${img}`} alt="product img" />
                 </Link>
                 <div class="products-slider__box">
                     <div class="products-slider-boxx">
